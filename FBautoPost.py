@@ -33,8 +33,8 @@ class Autopost(unittest.TestCase):
             self.driver.get(url)
             self.driver.maximize_window()
             sleep(2)
-            self.driver.find_element_by_id('email').send_keys('s23321286@gmail.com')  # add your account here
-            self.driver.find_element_by_id('pass').send_keys('qa830908')  # add your password here
+            self.driver.find_element_by_id('email').send_keys('add your account here')  # add your account here
+            self.driver.find_element_by_id('pass').send_keys('add your password here')  # add your password here
             sleep(2)
             self.driver.find_element_by_id("loginbutton").click()
             sleep(5)
