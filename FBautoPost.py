@@ -42,7 +42,7 @@ class Autopost(unittest.TestCase):
             sleep(3)
             self.driver.find_element_by_class_name('_3en1').send_keys(
                 '%s : ' 
-                'Test~Test~Test~Test~Test~Test~Jenkins!\n'
+                'Test~Test~Test~Test~Test~Test~Jenkins!!\n'
                 'IIT : http://www.iit.com.hk/'
 
             % current_time)
